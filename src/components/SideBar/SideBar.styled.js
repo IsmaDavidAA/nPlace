@@ -31,15 +31,13 @@ export const SideBarIcon = styled.div`
   font-size: 20px !important;
 `;
 
-export const SideBarListItem = styled.div`
-  & {
-    padding: 5px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    border-radius: 10px;
-  }
-  &,
+export const SideBarListItem = styled.li`
+  padding: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+
   &:hover {
     background-color: rgb(240, 240, 255);
   }

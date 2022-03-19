@@ -14,10 +14,10 @@ import {
   Report,
 } from "@material-ui/icons";
 import { Link } from "react-router-dom";
-import "./sidebar.css";
 import {
   SideBarContainer,
   SideBarList,
+  SideBarListItem,
   SideBarMenu,
   SideBarTitle,
   SideBarWrapper,
@@ -30,19 +30,19 @@ export default function SideBar() {
           <SideBarTitle>Dashboard</SideBarTitle>
           <SideBarList>
             {/* <Link to="/" className="link"> */}
-            <li className="sidebarListItem active">
+            <SideBarListItem>
               <LineStyle className="sidebarIcon" />
               Home
-            </li>
+            </SideBarListItem>
             {/* </Link> */}
-            <li className="sidebarListItem">
+            <SideBarListItem>
               <Timeline className="sidebarIcon" />
               Analytics
-            </li>
-            <li className="sidebarListItem">
+            </SideBarListItem>
+            <SideBarListItem>
               <TrendingUp className="sidebarIcon" />
               Sales
-            </li>
+            </SideBarListItem>
           </SideBarList>
         </SideBarMenu>
 
@@ -50,61 +50,61 @@ export default function SideBar() {
           <SideBarTitle>Quick Menu</SideBarTitle>
           <SideBarList>
             {/* <Link to="/users" className="link"> */}
-              <li className="sidebarListItem">
-                <PermIdentity className="sidebarIcon" />
-                Users
-              </li>
+            <SideBarListItem>
+              <PermIdentity className="sidebarIcon" />
+              Users
+            </SideBarListItem>
             {/* </Link> */}
             {/* <Link to="/products" className="link"> */}
-              <li className="sidebarListItem">
-                <Storefront className="sidebarIcon" />
-                Products
-              </li>
+            <SideBarListItem>
+              <Storefront className="sidebarIcon" />
+              Products
+            </SideBarListItem>
             {/* </Link> */}
-            <li className="sidebarListItem">
+            <SideBarListItem>
               <AttachMoney className="sidebarIcon" />
               Transactions
-            </li>
-            <li className="sidebarListItem">
+            </SideBarListItem>
+            <SideBarListItem>
               <BarChart className="sidebarIcon" />
               Reports
-            </li>
+            </SideBarListItem>
           </SideBarList>
         </SideBarMenu>
-        <div className="sidebarMenu">
-          <h3 className="sidebarTitle">Notifications</h3>
-          <ul className="sidebarList">
-            <li className="sidebarListItem">
+        <SideBarMenu>
+          <SideBarTitle>Notifications</SideBarTitle>
+          <SideBarList>
+            <SideBarListItem>
               <MailOutline className="sidebarIcon" />
               Mail
-            </li>
-            <li className="sidebarListItem">
+            </SideBarListItem>
+            <SideBarListItem>
               <DynamicFeed className="sidebarIcon" />
               Feedback
-            </li>
-            <li className="sidebarListItem">
+            </SideBarListItem>
+            <SideBarListItem>
               <ChatBubbleOutline className="sidebarIcon" />
               Messages
-            </li>
-          </ul>
-        </div>
-        <div className="sidebarMenu">
-          <h3 className="sidebarTitle">Staff</h3>
-          <ul className="sidebarList">
-            <li className="sidebarListItem">
+            </SideBarListItem>
+          </SideBarList>
+        </SideBarMenu>
+        <SideBarMenu>
+          <SideBarTitle>Staff</SideBarTitle>
+          <SideBarList>
+            <SideBarListItem>
               <WorkOutline className="sidebarIcon" />
               Manage
-            </li>
-            <li className="sidebarListItem">
+            </SideBarListItem>
+            <SideBarListItem>
               <Timeline className="sidebarIcon" />
               Analytics
-            </li>
-            <li className="sidebarListItem">
+            </SideBarListItem>
+            <SideBarListItem>
               <Report className="sidebarIcon" />
               Reports
-            </li>
-          </ul>
-        </div>
+            </SideBarListItem>
+          </SideBarList>
+        </SideBarMenu>
       </SideBarWrapper>
     </SideBarContainer>
   );
