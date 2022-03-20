@@ -31,7 +31,7 @@ export default function TopBar() {
             <Settings />
           </TopBarIconContainer>
           <TopAvatar
-            src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+            src="https://th.bing.com/th/id/OIP.USP1T_5fjD1VcqeFBkbNDwHaHa?w=165&h=180&c=7&r=0&o=5&pid=1.7"
             alt=""
           />
         </TopRight>

@@ -30,7 +30,7 @@ export default function BuildingDetail() {
         <MainImage src="https://i.pinimg.com/736x/22/5f/5d/225f5da6d53a79186d9047926880b68d.jpg" />
         <LeftContainer>
           <Typography variant="h4" component="h2">
-            Building Name
+            Bonita propiedad...
           </Typography>
           <Typography variant="h5" component="h3">
             $1,000,000
@@ -84,6 +84,9 @@ export default function BuildingDetail() {
           </ListItem>
           <ListItem alignItems="flex-start" dense={true}>
             <ListItemText primary="Cantidad de cocheras" secondary="1" />
+          </ListItem>
+          <ListItem alignItems="flex-start" dense={true}>
+            <ListItemText primary="En edificio" />
           </ListItem>
         </List>
       </DetailContainer>
