@@ -9,13 +9,15 @@ import {
   TopIconBadge,
   TopRight,
 } from "./TopBar.styled";
+import SearchField from "../SearchField/SearchField";
 export default function TopBar() {
   return (
     <TopBarContainer>
       <TopBarWrapper>
         <div>
-          <Logo>ISMA</Logo>
+          <Logo>Stal</Logo>
         </div>
+        <SearchField />
         <TopRight>
           <TopBarIconContainer>
             <NotificationsNone />

@@ -7,6 +7,7 @@ import {
   BrandingWatermark,
   NavigateNext,
 } from "@mui/icons-material";
+import { Apartment } from "@material-ui/icons";
 
 export const IconFactory = ({ icon, sx }) => {
   switch (icon) {
@@ -24,6 +25,8 @@ export const IconFactory = ({ icon, sx }) => {
       return <BrandingWatermark sx={sx} />;
     case "Continuar":
       return <NavigateNext sx={sx} />;
+    case "Departamento":
+      return <Apartment sx={sx} />;
     default:
       return <Phone sx={sx} />;
   }
