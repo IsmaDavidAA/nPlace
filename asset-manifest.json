@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/nPlace/static/css/main.475abd76.css",
+    "main.js": "/nPlace/static/js/main.e248fc24.js",
+    "index.html": "/nPlace/index.html",
+    "main.475abd76.css.map": "/nPlace/static/css/main.475abd76.css.map",
+    "main.e248fc24.js.map": "/nPlace/static/js/main.e248fc24.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.475abd76.css",
+    "static/js/main.e248fc24.js"
+  ]
+}
